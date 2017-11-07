@@ -25,3 +25,105 @@
     font-size: 36px;
     padding-top: 120px;
 }
+
+#about {
+    min-height: inherit;
+    font-family: corbel, sans-serif;
+    color: #4D4D4D;
+}
+
+.abouth {
+    padding-top: 50px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.aboutp {
+    font-size: 17px;
+}
+
+.button {
+    background-color: #C3CBD9;
+    border: 1px solid #95989A;
+    box-shadow: 1px 1px 7px #888888;
+    padding: 7px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#port-row {
+    padding-top: 80px;
+    min-height: 688px;
+}
+
+.thumb {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #4D4D4D;
+    box-shadow: 1px 1px 7px #888888;
+    margin-bottom: 20px;
+}
+
+.caption {
+    font-family: corbel, sans-serif;
+    color: 4D4D4D;
+    font-size: 17px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+#contact-row {
+    padding-top: 80px;
+    min-height: 688px;
+}
+
+#contact {
+    font-family: corbel, sans-serif;
+    font-size: 18px;
+    color: #4D4D4D;
+    font-weight: bold;
+}
+
+#text-box-web {
+    display: table;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+}
+
+#text-box-mobile {
+    display: table;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#spanning {
+    display: inline-table;
+    vertical-align: middle;
+}
+
+@media screen and (max-width : 768px){
+    .desk{
+        display: none;
+    }
+    .div-only-mobile{
+        visibility:visible;
+    }
+}
+
+@media screen and (min-width : 769px){
+    .div-only-mobile{
+        display: none;
+    }
+    .desk {
+        display: visible;
+    }
+}
+
