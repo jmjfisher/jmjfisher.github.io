@@ -33,14 +33,17 @@
 }
 
 .abouth {
-    padding-top: 50px;
-    padding-bottom: 5px;
+    padding-top: 21px;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 22px;
+}
+
+#about-buffer {
+    padding-top: 50px;
 }
 
 .aboutp {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .button {
@@ -88,20 +91,19 @@
     border-radius: 10px;
     border: 3px solid #4D4D4D;
     box-shadow: 1px 1px 7px #888888;
-    margin-bottom: 20px;
 }
 
 .caption {
     font-family: corbel, sans-serif;
     color: 4D4D4D;
-    font-size: 17px;
+    font-size: 16px;
     padding-bottom: 20px;
     padding-top: 5px;
 }
 
 #contact-row {
-    padding-top: 80px;
-    min-height: 688px;
+    padding-top: 75px;
+    min-height: 693px;
 }
 
 #contact {
@@ -125,6 +127,7 @@
     width: 100%;
     text-align: center;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 #spanning {
