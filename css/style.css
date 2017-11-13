@@ -1,5 +1,5 @@
 .navbar-default {
-    font-family: agency fb, corbel, sans-serif;
+    font-family: agency fb, corbel, helvetica, sans-serif;
     font-size: 24px;
     color: #4D4D4D;
     background-color: white;
@@ -8,8 +8,8 @@
 }
 
 .navbar-brand {
-    font-family: agency fb, corbel, sans-serif;
-    font-size: 30px;
+    font-family: agency fb, corbel, helvetica, sans-serif;
+    font-size: 28px;
     color: #4D4D4D;
 }
 
@@ -19,7 +19,7 @@
     background-image: url(/assets/hawaii.jpg);
     background-size:cover;
     background-position: center;
-    font-family: agency fb, corbel, sans-serif;
+    font-family: agency fb, corbel, helvetica, sans-serif;
     color: white;
     text-align: center;
     font-size: 36px;
@@ -28,7 +28,7 @@
 
 #about {
     min-height: inherit;
-    font-family: corbel, sans-serif;
+    font-family: corbel, helvetica, sans-serif;
     color: #4D4D4D;
 }
 
@@ -94,7 +94,7 @@
 }
 
 .caption {
-    font-family: corbel, sans-serif;
+    font-family: corbel, helvetica, sans-serif;
     color: 4D4D4D;
     font-size: 16px;
     padding-bottom: 20px;
@@ -107,7 +107,7 @@
 }
 
 #contact {
-    font-family: corbel, sans-serif;
+    font-family: corbel, helvetica, sans-serif;
     font-size: 18px;
     color: #4D4D4D;
     font-weight: bold;
