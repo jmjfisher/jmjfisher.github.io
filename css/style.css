@@ -33,7 +33,7 @@
 }
 
 .abouth {
-    padding-top: 21px;
+    padding-top: 7px;
     font-weight: bold;
     font-size: 22px;
 }
@@ -63,6 +63,28 @@
     text-decoration: none;
 }
 
+.button:active {
+    background-color: #345387;
+    border: 1px solid #1e3151;
+    box-shadow: 1px 1px 7px #888888;
+    padding: 7px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.button:focus {
+    background-color: #345387;
+    border: 1px solid #1e3151;
+    box-shadow: 1px 1px 7px #888888;
+    padding: 7px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
 #port-row {
     padding-top: 80px;
     min-height: 688px;
@@ -86,7 +108,7 @@
 .other-pic {
     height: 100%;
     width: 100%;
-    max-height: 620px;
+    max-height: 578px;
     max-width: 450px;
     border-radius: 10px;
     border: 3px solid #4D4D4D;
@@ -103,7 +125,7 @@
 
 #contact-row {
     padding-top: 75px;
-    min-height: 693px;
+    min-height: 653px;
 }
 
 #contact {
@@ -111,6 +133,11 @@
     font-size: 18px;
     color: #4D4D4D;
     font-weight: bold;
+}
+
+.tiny {
+    height: 55px;
+    width: 55px;
 }
 
 #text-box-web {
