@@ -98,7 +98,6 @@
 }
 
 .thumb {
-
     max-height: 380px;
     max-width: 380px;
     border-radius: 10px;
@@ -160,8 +159,9 @@
 }
 
 #spanning {
-    display: inline-table;
+    display: inline-block;
     vertical-align: middle;
+    letter-spacing: normal;
 }
 
 @media screen and (max-width : 768px){
@@ -201,8 +201,9 @@
 
 .caption {
     font-family: corbel, helvetica, sans-serif;
-    font-size: 14pt;
+    font-size: 12pt;
     color: #4D4D4D;
-    padding-top: 90px;
-    padding-left: 90px;
+    padding-top: 80px;
+    text-align: left;
+    margin-right: 20px;
 }

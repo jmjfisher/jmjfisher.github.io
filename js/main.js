@@ -29,22 +29,22 @@ function displayCaption(){
         $("#caption-1")
             .hide()
             .html("<p class='caption'>Shaded relief map of a proposed cycling race route in Chile. Created using ArcMap and Adobe Photoshop and Illustrator.</p>")
-            .slideDown(380);
+            .slideDown(250);
     } else if (id == "ed-thumb"){
         $("#caption-1")
             .hide()
             .html("<p class='caption'>Longform infographic regarding education spending in the United States. Created using Adobe Illustrator, Excel, and indiemapper.</p>")
-            .slideDown(380);
+            .slideDown(250);
     } else if (id == "cycle-thumb"){
         $("#caption-2")
             .hide()
             .html("<p class='caption'>Interactive web application allowing users to obtain safe yet efficient cycling routes within Duluth, MN. Developed using Java, JavaScript, PostgreSQL / PostGIS, GoogleMaps API, and pgRouting.</p>")
-            .slideDown(380);
+            .slideDown(250);
     } else if (id == "prince-thumb"){
         $("#caption-2")
             .hide()
             .html("<p class='caption'>Mapbox Studio tileset inspired by Antoine de Saint-Exup&eacute;ry's <i>The Little Prince</i>.</p>")
-            .slideDown(380);
+            .slideDown(250);
     } else {
         clearCaption
     }
