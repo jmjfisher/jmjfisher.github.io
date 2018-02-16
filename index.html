@@ -10,7 +10,7 @@
     <meta name="keywords" content="johnmark, fisher, gis, cartography, portfolio, map, maps">
     <meta name="author" content="JohnMark Fisher">
     
-    <title>Fisher Data + Maps</title>
+    <title>JohnMark Fisher</title>
     <link rel="icon" href="assets/jmf.ico">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -34,13 +34,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
       </button>
-      <a class="navbar-brand" href="#home">JohnMark Fisher</a>
+      <a class="navbar-brand js-scroll" href="#home">JohnMark Fisher</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about" data-toggle="collapse" data-target=".navbar-collapse.in">About</a></li>
-        <li><a href="#portfolio" data-toggle="collapse" data-target=".navbar-collapse.in">Portfolio</a></li>
-        <li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.in">Contact</a></li>
+        <li><a href="#about" data-toggle="collapse" data-target=".navbar-collapse.in" class="js-scroll">About</a></li>
+        <li><a href="#portfolio" data-toggle="collapse" data-target=".navbar-collapse.in" class="js-scroll">Portfolio</a</li>
+        <li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.in" class="js-scroll">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -51,8 +51,11 @@
 <div class="jumbotron jumbotron-fluid" id="home">
     <div class="container-fluid">
         <br>
-        <br>
-        <h1>Mapping my way.</h1>
+        <h1 class="shadow">JohnMark Fisher</h1>
+        <h3 class="shadow">Web Development // GIS // Data Management</h3>
+    </div>
+    <div id="scroll-div">
+        <a href="#about" class="js-scroll"><img id="scroll-button" alt="" src="assets/down.svg"></a>
     </div>
 </div>
     
@@ -62,7 +65,7 @@
     <div class="row">
         <div class="col-xs-8 col-xs-offset-2 col-md-8 col-md-offset-2">
             <h2 id="about-buffer" class="abouth"> Who am I?</h2>
-            <p class="aboutp"> Fueld by my desire to travel and learn more about the world, countless teenage hours were spent panning around Google Earth, planting the seed for what would ultimately become my interest in GIS and data. Now, my goal is to create applications and maps that tell informative stories. Not only do I hope my global curiosity never falters, but that I pass it on to others through my work.<br> I am a Wisconsin native living in Washington, DC.
+            <p class="aboutp">Piqued by my enthusiasm for traveling and being outdoors, my professional aspiration is to create applications and maps that tell interesting and informative stories about the world. Not only do I hope my global curiosity never falters, but that I pass it on to others through my work. I am a <i>Cheesehead</i> living in Washington, DC.</p>
             <h2 class="abouth">Technical and Design Skills</h2>
             <p class="aboutp">SQL | Python | Java | JavaScript | HTML | CSS | DBMSs | ArcGIS | Illustrator | Photoshop</p>
             <h2 class="abouth">Professional Experience</h2>
@@ -89,33 +92,35 @@
 <!--PORTFOLIO-->
 
 <div id = "portfolio" class = "container-fluid">
-    <div id="port-row" class = "row">
-        <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
+    <h1 id="portfolio-title">Portfolio</h1>
+    <div id="port-row-1">
+        <div class="thumb-hover col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-1">
             <a href="assets/chile_map.png" target="_blank">
-                <img class="thumb" alt="Chile" src="assets/chile_thumb.png">
+                <img id="chile-thumb" class="thumb" alt="Chile" src="assets/chile_thumb.png">
             </a>
-            <p class="caption">Shaded relief map of a proposed cycling race route in Chile. Created using ArcMap and Adobe Photoshop and Illustrator.</p>
         </div>
-        <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
-            <a href="https://youtu.be/K0ZLpvc3yc4" target="_blank">
-                <img class="thumb" alt="Cycle Routes" src="assets/cycle_thumb.png">
-            </a>
-            <p class="caption">Interactive web application allowing users to obtain safe yet efficient cycling routes within Duluth, MN. Developed using Java, JavaScript, PostgreSQL / PostGIS, GoogleMaps API, and pgRouting.</p>
-        </div>
-        <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
+        <div id="caption-1"class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0"></div>
+        <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
             <a href="assets/Education_infographic.png" target="_blank">
-                <img class="thumb" alt="Education" src="assets/ed_thumb.png">
+                <img id="ed-thumb" class="thumb" alt="Education" src="assets/ed_thumb.png">
             </a>
-            <p class="caption">Longform infographic regarding education spending in the United States. Created using Adobe Illustrator, Excel, and indiemapper.</p>
         </div>
     </div>
-    <div id="port-row2" class="row">
-        <div class="col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1">
-            <iframe align = "center" frameborder="0" class="mapbox" src='https://api.mapbox.com/styles/v1/jmjfisher/cjaue9byj0e1p2rpdfesabsft.html?fresh=true&title=true&access_token=pk.eyJ1Ijoiam1qZmlzaGVyIiwiYSI6ImNqYXVlNDg3cDVhNmoyd21oZ296ZXpwdWMifQ.OGprR1AOquImP-bemM-f2g#4.4/37.904644/129.737854/0'></iframe>
-            <p class="caption" align="center">Mapbox Studio tileset inspired by Antoine de Saint-Exup&eacute;ry's <i>The Little Prince</i>.</p>
+    <div id="port-row-2">
+        <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-1">
+            <a href="https://youtu.be/K0ZLpvc3yc4" target="_blank">
+                <img id="cycle-thumb" class="thumb" alt="Cycle Routes" src="assets/cycle_thumb.png">
+            </a>
+        </div>
+        <div id="caption-2"class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0"></div>
+        <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
+            <a href="https://api.mapbox.com/styles/v1/jmjfisher/cjaue9byj0e1p2rpdfesabsft.html?fresh=true&title=true&access_token=pk.eyJ1Ijoiam1qZmlzaGVyIiwiYSI6ImNqYXVlNDg3cDVhNmoyd21oZ296ZXpwdWMifQ.OGprR1AOquImP-bemM-f2g#4.4/37.904644/129.737854/0" target="_blank">
+                <img id="prince-thumb" class="thumb" alt="Little Prince" src="assets/prince_thumb.png">
+            </a>
         </div>
     </div>
-</div>  
+</div>
+
     
 <!--CONTACT-->
 
@@ -128,9 +133,9 @@
             <div id="text-box-web">
                 <span id="spanning">
                     <p>fisherjohnmark[at]gmail.com</p>
-                    <a href="https://www.linkedin.com/in/johnmark-fisher-01103b152/" target="_blank"><img class="tiny" alt="Linkedin" src="assets/linkedin_thumb.svg"></a>
-                    <a href="https://github.com/jmjfisher" target="_blank"><img class="tiny" alt="GitHub" src="assets/git_thumb.svg"></a>
-                    <a href="https://twitter.com/jmj_fisher" target="_blank"><img class="tiny" alt="Twitter" src="assets/twitter_thumb.svg"></a>
+                    <a href="https://www.linkedin.com/in/johnmark-fisher-01103b152/" target="_blank"><img class="tiny" alt="Linkedin" src="assets/linkedin_thumb.svg"/></a>
+                    <a href="https://github.com/jmjfisher" target="_blank"><img class="tiny" alt="GitHub" src="assets/git_thumb.svg"/></a>
+                    <a href="https://twitter.com/jmj_fisher" target="_blank"><img class="tiny" alt="Twitter" src="assets/twitter_thumb.svg"/></a>
                 </span>
             </div>
         </div>
@@ -146,6 +151,8 @@
         </div>
     </div>
 </div>
+    
+<script type="text/javascript" src="js/main.js"></script>
     
 </body>
 
