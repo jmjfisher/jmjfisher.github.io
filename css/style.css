@@ -89,7 +89,7 @@
     padding-top: 40px;
 }
 
-#portfolio-title {
+.title {
     margin-top: 70px;
     font-family: agency fb, corbel, helvetica, sans-serif;
     text-align: center;
@@ -120,13 +120,9 @@
     box-shadow: 1px 1px 7px #888888;
 }
 
-.caption {
-
-}
-
 #contact-row {
-    padding-top: 75px;
-    min-height: 653px;
+    padding-top: 20px;
+    min-height: 580px;
 }
 
 #contact {

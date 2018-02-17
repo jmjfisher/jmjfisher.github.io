@@ -30,15 +30,20 @@ function displayCaption(){
             .hide()
             .html("<p class='caption'>Shaded relief map of a proposed cycling race route in Chile. Created using ArcMap and Adobe Photoshop and Illustrator.</p>")
             .slideDown(250);
-    } else if (id == "ed-thumb"){
+    } else if (id =="transfer-thumb") {
         $("#caption-1")
+            .hide()
+            .html("<p class='caption'>Dynamic web application mapping annual football transfer fees by the world's most valuable clubs. Written in JavaScript with use of Leaflet and jQuery libraries.</p>")
+            .slideDown(250);
+    } else if (id == "ed-thumb"){
+        $("#caption-3")
             .hide()
             .html("<p class='caption'>Longform infographic regarding education spending in the United States. Created using Adobe Illustrator, Excel, and indiemapper.</p>")
             .slideDown(250);
     } else if (id == "cycle-thumb"){
         $("#caption-2")
             .hide()
-            .html("<p class='caption'>Interactive web application allowing users to obtain safe yet efficient cycling routes within Duluth, MN. Developed using Java, JavaScript, PostgreSQL / PostGIS, GoogleMaps API, and pgRouting.</p>")
+            .html("<p class='caption'>Interactive web application allowing users to obtain safe yet efficient cycling routes within Duluth, MN. Developed using Java, JavaScript, PostgreSQL / PostGIS, GoogleMaps API, and pgRouting. (video demo)</p>")
             .slideDown(250);
     } else if (id == "prince-thumb"){
         $("#caption-2")
@@ -53,6 +58,7 @@ function displayCaption(){
 function clearCaption(){
     $("#caption-1").empty();
     $("#caption-2").empty();
+    $("#caption-3").empty();
 };
 
 $(".thumb").hover(displayCaption,clearCaption)
