@@ -155,7 +155,7 @@
 }
 
 #spanning {
-    display: inline-block;
+    display: inline;
     vertical-align: middle;
     letter-spacing: normal;
 }
@@ -183,16 +183,14 @@
     text-align: center;
 }
 
+.js-scroll {
+    text-align: center;
+}
+
 #scroll-button {
     width: 60px;
     height: 60px;
-    position: absolute;
-    bottom: 0;
     opacity: .7;
-}
-
-#scroll-div {
-    text-align: center;
 }
 
 .caption {
