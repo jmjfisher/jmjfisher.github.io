@@ -30,6 +30,16 @@ function displayCaption(){
             .hide()
             .html("<p class='caption'>Shaded relief map of a proposed cycling race route in Chile. Created using ArcMap and Adobe Photoshop and Illustrator.</p>")
             .slideDown(250);
+    } else if (id =="lp-thumb") {
+        $("#caption-5")
+            .hide()
+            .html("<p class='caption'>Interactive map showing POIs in Manitowoc Lincoln Park. Makes jQuery POST and GET calls to PostGIS database to update map with comments or show nearest POI to a point. (video demo)</p>")
+            .slideDown(250);
+    } else if (id =="arcpy-thumb") {
+        $("#caption-5")
+            .hide()
+            .html("<p class='caption'>ArcPy (Tkinter GUI) application running IDW and GWR analyses on relationship between nitrate rates in wells and cancer rates in Wisconsin. (video demo)</p>")
+            .slideDown(250);
     } else if (id =="bus-thumb") {
         $("#caption-2")
             .hide()
@@ -74,6 +84,8 @@ function clearCaption(){
     $("#caption-1").empty();
     $("#caption-2").empty();
     $("#caption-3").empty();
+    $("#caption-4").empty();
+    $("#caption-5").empty();
 };
 
 $(".thumb").hover(displayCaption,clearCaption)
