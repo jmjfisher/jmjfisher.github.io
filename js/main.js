@@ -30,8 +30,13 @@ function displayCaption(){
             .hide()
             .html("<p class='caption'>Shaded relief map of a proposed cycling race route in Chile. Created using ArcMap and Adobe Photoshop and Illustrator.</p>")
             .slideDown(250);
-    } else if (id =="transfer-thumb") {
+    } else if (id =="bus-thumb") {
         $("#caption-2")
+            .hide()
+            .html("<p class='caption'>Scrollytelling visual essay about decreasing bus ridership in DC. Written in JavaScript with use of Leaflet, D3, Scrollama, and jQuery libraries, Adobe Illustrator graphics, and ArcMap analysis.</p>")
+            .slideDown(250);
+    } else if (id =="transfer-thumb") {
+        $("#caption-4")
             .hide()
             .html("<p class='caption'>Dynamic web application mapping annual football transfer fees by the world's most valuable clubs. Written in JavaScript with use of Leaflet and jQuery libraries.</p>")
             .slideDown(250);
