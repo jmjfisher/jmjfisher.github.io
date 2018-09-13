@@ -30,6 +30,11 @@ function displayCaption(){
             .hide()
             .html("<p class='caption'>Shaded relief map of a proposed cycling race route in Chile. Created using ArcMap and Adobe Photoshop and Illustrator.</p>")
             .slideDown(250);
+    } else if (id == "radio-thumb") {
+        $("#caption-3")
+            .hide()
+            .html("<p class='caption'>Mobile-friendly interactive map helping users find nearest Packers Radio Network affiliate station based on Voronoi polygons calculation. Created using QGIS data analysis and editing tools and Leaflet.</p>")
+            .slideDown(250);
     } else if (id =="lp-thumb") {
         $("#caption-5")
             .hide()
@@ -56,7 +61,7 @@ function displayCaption(){
             .html("<p class='caption'>Longform infographic regarding education spending in the United States. Created using Adobe Illustrator, Excel, and indiemapper.</p>")
             .slideDown(250);
     } else if (id == "cycle-thumb"){
-        $("#caption-3")
+        $("#caption-6")
             .hide()
             .html("<p class='caption'>Interactive web application allowing users to obtain safe yet efficient cycling routes within Duluth, MN. Developed using Java, JavaScript, PostgreSQL / PostGIS, GoogleMaps API, and pgRouting. (video demo)</p>")
             .slideDown(250);
@@ -86,6 +91,7 @@ function clearCaption(){
     $("#caption-3").empty();
     $("#caption-4").empty();
     $("#caption-5").empty();
+    $("#caption-6").empty();
 };
 
 $(".thumb").hover(displayCaption,clearCaption)
