@@ -1,15 +1,30 @@
 $(document).ready(function(){
     
-    //Reduce size of thumbnails if screen width < height
-    if ($(window).outerWidth() < $(window).outerHeight()) {
+    //Dynamically resize thumbnails
+    columnWidth = $(window).innerWidth()/12;
+    
+    // if the height is at least 1.5x the width...
+    if ($(window).width() < $(window).height()*1.5) {
         
-        columnWidth = $(window).width()/12;
-        thumbWidth = columnWidth*9.25;
+        thumbWidth = columnWidth*10;
+        
+        console.log(columnWidth,thumbWidth)
         
         $('.thumb').each(function(){
             $(this).width(thumbWidth);
         });
         
+    } else {
+        
+        thumbWidth = columnWidth*4;
+        
+        if (thumbWidth < 450) {
+            
+            $('.thumb').each(function(){
+                $(this).width(thumbWidth);
+            });
+            
+        };
     };
     
     // Add smooth scrolling to all links
