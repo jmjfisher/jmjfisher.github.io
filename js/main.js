@@ -73,6 +73,11 @@ function displayCaption(){
                 .hide()
                 .html("<p class='caption'>ArcPy (Tkinter GUI) application running IDW and GWR analyses on relationship between nitrate rates in wells and cancer rates in Wisconsin. (video demo)</p>")
                 .slideDown(250);
+        } else if (id =="pl-thumb") {
+            $("#caption-6")
+                .hide()
+                .html("<p class='caption'>An analysis of the nationalities of Premier League players over time. Data gathered with python scraping and Tableau Public/Leaflet visualizations.</p>")
+                .slideDown(250);
         } else if (id =="bus-thumb") {
             $("#caption-2")
                 .hide()
@@ -89,7 +94,7 @@ function displayCaption(){
                 .html("<p class='caption'>Longform infographic regarding education spending in the United States. Adobe Illustrator, Excel, and indiemapper.</p>")
                 .slideDown(250);
         } else if (id == "cycle-thumb"){
-            $("#caption-6")
+            $("#caption-7")
                 .hide()
                 .html("<p class='caption'>Web application allowing users to obtain safe yet efficient cycling routes within Duluth, MN. Java, JavaScript, PostgreSQL (PostGIS), GoogleMaps API, and pgRouting. (video demo)</p>")
                 .slideDown(250);
@@ -128,6 +133,7 @@ function clearCaption(){
     $("#caption-4").empty();
     $("#caption-5").empty();
     $("#caption-6").empty();
+    $("#caption-7").empty();
 };
 
 $(".thumb").hover(displayCaption,clearCaption)
