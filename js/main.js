@@ -76,7 +76,7 @@ function displayCaption(){
         } else if (id =="pl-thumb") {
             $("#caption-6")
                 .hide()
-                .html("<p class='caption'>An analysis of the nationalities of Premier League players over time. Data gathered with python scraping and Tableau Public/Leaflet visualizations.</p>")
+                .html("<p class='caption'>An analysis of the nationalities of Premier League players over time. Data gathered and organized with python (Beautiful Soup + pandas) with Tableau Public and Leaflet visualizations.</p>")
                 .slideDown(250);
         } else if (id =="bus-thumb") {
             $("#caption-2")
