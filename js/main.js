@@ -74,7 +74,7 @@ function displayCaption(){
                 .html("<p class='caption'>ArcPy (Tkinter GUI) application running IDW and GWR analyses on relationship between nitrate rates in wells and cancer rates in Wisconsin. (video demo)</p>")
                 .slideDown(250);
         } else if (id =="pl-thumb") {
-            $("#caption-6")
+            $("#caption-1")
                 .hide()
                 .html("<p class='caption'>An analysis of the nationalities of Premier League players over time. Data gathered and organized with python (Beautiful Soup + pandas) with Tableau Public and Leaflet visualizations.</p>")
                 .slideDown(250);
@@ -109,7 +109,7 @@ function displayCaption(){
                 .html("<p class='caption'>A research application to convey areas of potential population displacement or gentrification in Chicago. Leaflet and D3 libraries.</p>")
                 .slideDown(250);
         } else if (id == "olympics-thumb"){
-            $("#caption-1")
+            $("#caption-6")
                 .hide()
                 .html("<p class='caption'>An application to visualize national medal performances at recent Olympic games with respect to GDP. JavaScript and D3.</p>")
                 .slideDown(250);
