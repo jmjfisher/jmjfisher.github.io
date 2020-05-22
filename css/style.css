@@ -201,3 +201,23 @@
     text-align: left;
     margin-right: 20px;
 }
+
+.ynwa {
+    text-align: center;
+}
+
+#ynwa:hover a:hover {
+    color: black;
+}
+
+#ynwa a {
+    color: white;
+}
+
+#ynwa:hover {
+    color: black;
+}
+
+#ynwa {
+    color: white;
+}
